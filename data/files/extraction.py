@@ -1,17 +1,11 @@
-import os
-import pathlib
-from dotenv import load_dotenv
-from openai import OpenAI
+import json
 
-env_path = "/home/ubuntu/wangpengyuan/lzb/MASMath/src/.env"
-load_dotenv(dotenv_path=str(env_path))
+with open("data\jsons\quanguo1_tmp.json", 'r', encoding="utf-8") as f:
+    data = json.loads(f.read())
 
-api_key = os.getenv("OPENAI_API_KEY")
-base_url = os.getenv("OPENAI_API_URL")
+output = []
+for d in data:
+    output.append(d["题号"] + ". " + d["题目"])
 
-client = OpenAI(
-    base_url=base_url,
-    api_key=api_key
-)
-
-client.chat.completions.create
+with open("data\jsons\quanguo1.json", 'w', encoding="utf-8") as f:
+    f.write(json.dumps(output, indent=4, ensure_ascii=False))
