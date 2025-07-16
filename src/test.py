@@ -8,13 +8,14 @@ from agents.structure_agent import StructureAgent
 from agents.generation_agent import GenerationAgent
 from agents.solver_agent import SolverAgent
 from agents.judger_agent import JudgerAgent
+from agents.checking_agent import CheckingAgent
 
 k_agent = KnowledgeAgent(model_name="gemini-2.0-flash")
 s_agent = StructureAgent(model_name="gemini-2.0-flash")
 g_agent = GenerationAgent(model_name="gemini-2.0-flash")
 solver_agent = SolverAgent(model_name="gemini-2.0-flash")
 j_agent = JudgerAgent(model_name="gemini-2.0-flash")
-
+c_agent = CheckingAgent(data_file_path="/home/ubuntu/wangpengyuan/lzb/MASMath/data/jsons")
 # prompt = "请命制一道高考数学简答题，内容有关导数压轴题。"
 
 info = {
@@ -41,3 +42,9 @@ print(ans)
 score = j_agent.ask(question, ans)
 print('-'*50+'\n')
 print(score)
+
+examples, check = c_agent.ask(question)
+print('-'*50+'\n')
+for e in examples:
+    print(e + "\n")
+print(check)

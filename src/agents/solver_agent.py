@@ -2,6 +2,7 @@ import os
 from camel.models import ModelFactory
 from camel.types import ModelPlatformType
 from camel.agents import ChatAgent
+from camel.toolkits import MathToolkit, SymPyToolkit
 
 from .base_agent import BaseAgent
 
@@ -15,9 +16,11 @@ class SolverAgent(BaseAgent):
                     url=os.environ.get("OPENAI_API_URL"),
                     model_config_dict={"temperature": temperature},
         )
-
+        # math_toolkit = MathToolkit()
+        # sympy_toolkit = SymPyToolkit()
         self.agent = ChatAgent(
             model=model,
+            # tools=[ *sympy_toolkit.get_tools()]
         )
 
     def ask(self, question: str) -> str:

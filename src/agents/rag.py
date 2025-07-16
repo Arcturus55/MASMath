@@ -6,6 +6,7 @@ import pathlib
 import os
 import json
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 base_dir = pathlib.Path(__file__).parent.parent
 env_path = base_dir / ".env"
@@ -24,9 +25,10 @@ print(len(text_embeddings[0]))
 
 storage_instance = QdrantStorage(
     vector_dim=3072,
-    # path="local_data",
+    path="local_data",
     collection_name="test",
 )
+storage_instance.clear()
 
 vector_retriever = VectorRetriever(embedding_model=embedding_instance,
                                    storage=storage_instance)
@@ -53,7 +55,7 @@ with open(input_path, 'r') as f:
 #     content=pdf_text,
 # )
 
-for d in datas:
+for d in tqdm(datas):
 
     vector_retriever.process(
         content=d,
@@ -76,3 +78,4 @@ prompt = '''已知数列 $\{a_n\}$ 满足 $a_1 = 1$，且 $a_{n+1} = 2a_n + 1$�
 resp = vector_retriever.query(prompt, top_k=3, similarity_threshold=0.0)
 
 print(resp)
+print([r['text'] for r in resp])
