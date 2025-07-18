@@ -1,4 +1,5 @@
 import os
+import re
 import json
 from tqdm import tqdm
 
@@ -76,3 +77,10 @@ class CheckingAgent(BaseAgent):
 
         return examples, resp.msgs[0].content
     
+    def extract(self, answer: str) -> bool:
+        pattern = re.compile(r"<answer>(.*?)</answer>", re.DOTALL)
+        matches = pattern.findall(answer)
+        if matches:
+            if matches[-1] == "是":
+                return True
+        return False

@@ -16,11 +16,10 @@ class SolverAgent(BaseAgent):
                     url=os.environ.get("OPENAI_API_URL"),
                     model_config_dict={"temperature": temperature},
         )
-        # math_toolkit = MathToolkit()
-        # sympy_toolkit = SymPyToolkit()
+
         self.agent = ChatAgent(
             model=model,
-            # tools=[ *sympy_toolkit.get_tools()]
+            tools=[*MathToolkit().get_tools(), *SymPyToolkit().get_tools()]
         )
 
     def ask(self, question: str) -> str:

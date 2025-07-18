@@ -1,4 +1,5 @@
 import os
+import re
 from camel.models import ModelFactory
 from camel.types import ModelPlatformType
 from camel.agents import ChatAgent
@@ -30,3 +31,10 @@ class JudgerAgent(BaseAgent):
 
         return resp.msgs[0].content
     
+    def extract(self, answer: str) -> float:
+        pattern = re.compile(r"<score>(.*?)</score>", re.DOTALL)
+        matches = pattern.findall(answer)
+        if matches:
+            return float(matches[-1])
+        else:
+            return None
