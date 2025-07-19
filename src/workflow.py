@@ -3,7 +3,7 @@ warnings.filterwarnings("ignore")
 
 import os
 
-from agents.knowledge_agent import KnowledgeAgent
+from agents.knowledge_agent import KnowledgeLLMAgent, KnowledgeGraphAgent
 from agents.structure_agent import StructureAgent
 from agents.generation_agent import GenerationAgent
 from agents.solver_agent import SolverAgent
@@ -12,7 +12,14 @@ from agents.checking_agent import CheckingAgent
 
 class WorkFlow:
     def __init__(self, max_iter: int=5, eps: float=0.1, redund=True):
-        self.knowledge_agent = KnowledgeAgent(model_name=os.getenv("Gemini-2.0"))
+        # self.knowledge_agent = KnowledgeLLMAgent(model_name=os.getenv("Gemini-2.0"))
+        self.knowledge_agent = KnowledgeGraphAgent(
+            uri=os.getenv("NEO4J_URI"),
+            user=os.getenv("NEO4J_USER"),
+            password=os.getenv("NEO4J_PASSWORD"),
+            kb_path=os.path.join(os.getenv("PROJECT_PATH"), "kbase/kbase.json"),
+            embed_model_name=os.getenv("Embedding_Model_ID")
+        )
         self.structure_agent = StructureAgent(model_name=os.getenv("Gemini-2.0"))
         self.generation_agent = GenerationAgent(model_name=os.getenv("Gemini-2.0"))
         self.solver_agent = SolverAgent(model_name=os.getenv("GPT-4o"))
@@ -27,7 +34,7 @@ class WorkFlow:
         self.redund = redund
     
     def generate(self, info: dict) -> str:
-        knowledge = self.knowledge_agent.ask(info)
+        knowledge = self.knowledge_agent.ask(info["subject"])
         if self.redund:
             print('-'*50+'\n')
             print(knowledge)

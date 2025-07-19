@@ -4,7 +4,7 @@ warnings.filterwarnings("ignore")
 import os
 from dotenv import load_dotenv
 
-PROJECT_PATH = "/home/v-wangpy/dev-lizb/MASMath"
+PROJECT_PATH = "D:\DevCodes\MASMath"
 
 load_dotenv(os.path.join(PROJECT_PATH, ".env"))
 

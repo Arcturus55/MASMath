@@ -1,0 +1,889 @@
+[
+    {
+        "chapter": "集合与函数概念",
+        "topics": [
+            {
+                "topic": "集合",
+                "knowledge_points": [
+                    {
+                        "name": "集合的含义与表示",
+                        "cognitive": "记忆",
+                        "difficulty": 0.2,
+                        "combinations": [
+                            "集合间的基本关系",
+                            "集合的基本运算"
+                        ]
+                    },
+                    {
+                        "name": "集合间的基本关系",
+                        "cognitive": "理解",
+                        "difficulty": 0.3,
+                        "combinations": [
+                            "集合的含义与表示",
+                            "充分条件与必要条件"
+                        ]
+                    },
+                    {
+                        "name": "集合的基本运算",
+                        "cognitive": "应用",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "集合间的基本关系",
+                            "函数的概念"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "函数及其表示",
+                "knowledge_points": [
+                    {
+                        "name": "函数的概念",
+                        "cognitive": "理解",
+                        "difficulty": 0.35,
+                        "combinations": [
+                            "集合的基本运算",
+                            "函数的单调性"
+                        ]
+                    },
+                    {
+                        "name": "函数的表示法",
+                        "cognitive": "应用",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "函数的概念",
+                            "分段函数"
+                        ]
+                    },
+                    {
+                        "name": "分段函数",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "函数的表示法",
+                            "函数的单调性"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "函数的基本性质",
+                "knowledge_points": [
+                    {
+                        "name": "函数的单调性",
+                        "cognitive": "理解",
+                        "difficulty": 0.45,
+                        "combinations": [
+                            "函数的概念",
+                            "导数与函数单调性"
+                        ]
+                    },
+                    {
+                        "name": "函数的奇偶性",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "函数的单调性",
+                            "函数图像的对称性"
+                        ]
+                    },
+                    {
+                        "name": "函数的最大(小)值",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "函数的单调性",
+                            "导数求极值"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "基本初等函数(Ⅰ)",
+        "topics": [
+            {
+                "topic": "指数函数",
+                "knowledge_points": [
+                    {
+                        "name": "指数与指数幂运算",
+                        "cognitive": "理解",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "对数运算",
+                            "幂函数"
+                        ]
+                    },
+                    {
+                        "name": "指数函数及其性质",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "指数与指数幂运算",
+                            "对数函数及其性质"
+                        ]
+                    },
+                    {
+                        "name": "指数函数的应用",
+                        "cognitive": "综合",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "指数函数及其性质",
+                            "建立函数模型"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "对数函数",
+                "knowledge_points": [
+                    {
+                        "name": "对数与对数运算",
+                        "cognitive": "理解",
+                        "difficulty": 0.45,
+                        "combinations": [
+                            "指数与指数幂运算",
+                            "换底公式"
+                        ]
+                    },
+                    {
+                        "name": "对数函数及其性质",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "对数与对数运算",
+                            "指数函数及其性质"
+                        ]
+                    },
+                    {
+                        "name": "反函数",
+                        "cognitive": "理解",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "对数函数及其性质",
+                            "指数函数及其性质"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "幂函数",
+                "knowledge_points": [
+                    {
+                        "name": "幂函数的概念",
+                        "cognitive": "记忆",
+                        "difficulty": 0.3,
+                        "combinations": [
+                            "指数与指数幂运算",
+                            "函数的概念"
+                        ]
+                    },
+                    {
+                        "name": "幂函数的图像与性质",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "幂函数的概念",
+                            "函数的单调性"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "三角函数",
+        "topics": [
+            {
+                "topic": "三角函数基本概念",
+                "knowledge_points": [
+                    {
+                        "name": "弧度制",
+                        "cognitive": "记忆",
+                        "difficulty": 0.25,
+                        "combinations": [
+                            "任意角的三角函数",
+                            "弧长公式"
+                        ]
+                    },
+                    {
+                        "name": "任意角的三角函数",
+                        "cognitive": "理解",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "弧度制",
+                            "同角三角函数关系"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "三角恒等变换",
+                "knowledge_points": [
+                    {
+                        "name": "同角三角函数关系",
+                        "cognitive": "应用",
+                        "difficulty": 0.45,
+                        "combinations": [
+                            "任意角的三角函数",
+                            "诱导公式"
+                        ]
+                    },
+                    {
+                        "name": "诱导公式",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "同角三角函数关系",
+                            "三角函数的图像"
+                        ]
+                    },
+                    {
+                        "name": "和差角公式",
+                        "cognitive": "综合",
+                        "difficulty": 0.65,
+                        "combinations": [
+                            "诱导公式",
+                            "二倍角公式"
+                        ]
+                    },
+                    {
+                        "name": "二倍角公式",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "和差角公式",
+                            "三角恒等证明"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "三角函数的图像与性质",
+                "knowledge_points": [
+                    {
+                        "name": "正弦函数图像与性质",
+                        "cognitive": "理解",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "诱导公式",
+                            "函数的最大(小)值"
+                        ]
+                    },
+                    {
+                        "name": "余弦函数图像与性质",
+                        "cognitive": "理解",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "正弦函数图像与性质",
+                            "和差角公式"
+                        ]
+                    },
+                    {
+                        "name": "正切函数图像与性质",
+                        "cognitive": "理解",
+                        "difficulty": 0.45,
+                        "combinations": [
+                            "正弦函数图像与性质",
+                            "同角三角函数关系"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "数列",
+        "topics": [
+            {
+                "topic": "数列概念",
+                "knowledge_points": [
+                    {
+                        "name": "数列的定义与表示",
+                        "cognitive": "记忆",
+                        "difficulty": 0.25,
+                        "combinations": [
+                            "函数的概念",
+                            "等差数列的概念"
+                        ]
+                    },
+                    {
+                        "name": "数列的通项公式",
+                        "cognitive": "理解",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "数列的定义与表示",
+                            "递推公式"
+                        ]
+                    },
+                    {
+                        "name": "递推公式",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "数列的通项公式",
+                            "数学归纳法"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "等差数列",
+                "knowledge_points": [
+                    {
+                        "name": "等差数列的概念",
+                        "cognitive": "理解",
+                        "difficulty": 0.35,
+                        "combinations": [
+                            "数列的定义与表示",
+                            "等差中项"
+                        ]
+                    },
+                    {
+                        "name": "等差数列的通项公式",
+                        "cognitive": "应用",
+                        "difficulty": 0.45,
+                        "combinations": [
+                            "等差数列的概念",
+                            "数列的通项公式"
+                        ]
+                    },
+                    {
+                        "name": "等差数列的前n项和",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "等差数列的通项公式",
+                            "倒序相加法"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "等比数列",
+                "knowledge_points": [
+                    {
+                        "name": "等比数列的概念",
+                        "cognitive": "理解",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "等差数列的概念",
+                            "等比中项"
+                        ]
+                    },
+                    {
+                        "name": "等比数列的通项公式",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "等比数列的概念",
+                            "指数函数及其性质"
+                        ]
+                    },
+                    {
+                        "name": "等比数列的前n项和",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "等比数列的通项公式",
+                            "错位相减法"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "数列综合应用",
+                "knowledge_points": [
+                    {
+                        "name": "数列求和常用方法",
+                        "cognitive": "综合",
+                        "difficulty": 0.7,
+                        "combinations": [
+                            "等差数列的前n项和",
+                            "等比数列的前n项和"
+                        ]
+                    },
+                    {
+                        "name": "数列与不等式",
+                        "cognitive": "综合",
+                        "difficulty": 0.75,
+                        "combinations": [
+                            "数列求和常用方法",
+                            "不等式证明"
+                        ]
+                    },
+                    {
+                        "name": "数学归纳法",
+                        "cognitive": "综合",
+                        "difficulty": 0.7,
+                        "combinations": [
+                            "递推公式",
+                            "数列与不等式"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "不等式",
+        "topics": [
+            {
+                "topic": "不等式性质",
+                "knowledge_points": [
+                    {
+                        "name": "不等式基本性质",
+                        "cognitive": "理解",
+                        "difficulty": 0.3,
+                        "combinations": [
+                            "等式性质",
+                            "比较法"
+                        ]
+                    },
+                    {
+                        "name": "均值不等式",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "不等式基本性质",
+                            "函数的最大(小)值"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "不等式求解",
+                "knowledge_points": [
+                    {
+                        "name": "一元二次不等式",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "二次函数图像",
+                            "区间表示解集"
+                        ]
+                    },
+                    {
+                        "name": "绝对值不等式",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "绝对值的几何意义",
+                            "分类讨论思想"
+                        ]
+                    },
+                    {
+                        "name": "线性规划",
+                        "cognitive": "应用",
+                        "difficulty": 0.65,
+                        "combinations": [
+                            "不等式基本性质",
+                            "平面区域表示"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "不等式证明",
+                "knowledge_points": [
+                    {
+                        "name": "比较法",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "不等式基本性质",
+                            "代数式变形"
+                        ]
+                    },
+                    {
+                        "name": "综合法",
+                        "cognitive": "综合",
+                        "difficulty": 0.65,
+                        "combinations": [
+                            "均值不等式",
+                            "三角恒等证明"
+                        ]
+                    },
+                    {
+                        "name": "分析法",
+                        "cognitive": "综合",
+                        "difficulty": 0.7,
+                        "combinations": [
+                            "充分条件与必要条件",
+                            "反证法"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "导数及其应用",
+        "topics": [
+            {
+                "topic": "导数概念",
+                "knowledge_points": [
+                    {
+                        "name": "导数的定义",
+                        "cognitive": "理解",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "极限概念",
+                            "变化率问题"
+                        ]
+                    },
+                    {
+                        "name": "导数的几何意义",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "导数的定义",
+                            "切线方程"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "导数计算",
+                "knowledge_points": [
+                    {
+                        "name": "基本初等函数导数",
+                        "cognitive": "记忆",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "幂函数",
+                            "指数函数及其性质"
+                        ]
+                    },
+                    {
+                        "name": "导数的四则运算",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "基本初等函数导数",
+                            "复合函数求导"
+                        ]
+                    },
+                    {
+                        "name": "复合函数求导",
+                        "cognitive": "应用",
+                        "difficulty": 0.65,
+                        "combinations": [
+                            "导数的四则运算",
+                            "函数的概念"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "导数应用",
+                "knowledge_points": [
+                    {
+                        "name": "导数与函数单调性",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "导数的定义",
+                            "函数的单调性"
+                        ]
+                    },
+                    {
+                        "name": "导数求极值",
+                        "cognitive": "应用",
+                        "difficulty": 0.65,
+                        "combinations": [
+                            "导数与函数单调性",
+                            "函数的最大(小)值"
+                        ]
+                    },
+                    {
+                        "name": "导数在实际问题中的应用",
+                        "cognitive": "综合",
+                        "difficulty": 0.75,
+                        "combinations": [
+                            "导数求极值",
+                            "建立函数模型"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "立体几何",
+        "topics": [
+            {
+                "topic": "空间几何体",
+                "knowledge_points": [
+                    {
+                        "name": "柱锥台球结构特征",
+                        "cognitive": "记忆",
+                        "difficulty": 0.3,
+                        "combinations": [
+                            "三视图",
+                            "空间几何体表面积"
+                        ]
+                    },
+                    {
+                        "name": "三视图",
+                        "cognitive": "理解",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "空间想象力",
+                            "投影原理"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "空间位置关系",
+                "knowledge_points": [
+                    {
+                        "name": "空间点线面关系",
+                        "cognitive": "理解",
+                        "difficulty": 0.45,
+                        "combinations": [
+                            "平面的基本性质",
+                            "空间几何体"
+                        ]
+                    },
+                    {
+                        "name": "线面平行判定与性质",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "空间点线面关系",
+                            "反证法"
+                        ]
+                    },
+                    {
+                        "name": "面面平行判定与性质",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "线面平行判定与性质",
+                            "空间向量应用"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "空间角与距离",
+                "knowledge_points": [
+                    {
+                        "name": "异面直线所成角",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "平移变换",
+                            "余弦定理"
+                        ]
+                    },
+                    {
+                        "name": "线面角",
+                        "cognitive": "应用",
+                        "difficulty": 0.65,
+                        "combinations": [
+                            "线面垂直判定",
+                            "三角函数定义"
+                        ]
+                    },
+                    {
+                        "name": "二面角",
+                        "cognitive": "综合",
+                        "difficulty": 0.7,
+                        "combinations": [
+                            "线面角",
+                            "空间向量应用"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "解析几何",
+        "topics": [
+            {
+                "topic": "直线与方程",
+                "knowledge_points": [
+                    {
+                        "name": "直线倾斜角与斜率",
+                        "cognitive": "理解",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "三角函数定义",
+                            "直线方程形式"
+                        ]
+                    },
+                    {
+                        "name": "直线方程形式",
+                        "cognitive": "应用",
+                        "difficulty": 0.45,
+                        "combinations": [
+                            "直线倾斜角与斜率",
+                            "二元一次方程"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "圆与方程",
+                "knowledge_points": [
+                    {
+                        "name": "圆的标准方程",
+                        "cognitive": "理解",
+                        "difficulty": 0.35,
+                        "combinations": [
+                            "两点间距离公式",
+                            "圆的一般方程"
+                        ]
+                    },
+                    {
+                        "name": "圆的一般方程",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "圆的标准方程",
+                            "二元二次方程"
+                        ]
+                    },
+                    {
+                        "name": "直线与圆位置关系",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "点到直线距离",
+                            "圆的切线方程"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "圆锥曲线",
+                "knowledge_points": [
+                    {
+                        "name": "椭圆及标准方程",
+                        "cognitive": "理解",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "圆的方程",
+                            "定义法"
+                        ]
+                    },
+                    {
+                        "name": "双曲线及标准方程",
+                        "cognitive": "理解",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "椭圆及标准方程",
+                            "渐近线概念"
+                        ]
+                    },
+                    {
+                        "name": "抛物线及标准方程",
+                        "cognitive": "理解",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "圆锥曲线统一定义",
+                            "焦点与准线"
+                        ]
+                    },
+                    {
+                        "name": "直线与圆锥曲线位置关系",
+                        "cognitive": "综合",
+                        "difficulty": 0.75,
+                        "combinations": [
+                            "韦达定理",
+                            "弦长公式"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "chapter": "概率统计",
+        "topics": [
+            {
+                "topic": "概率基础",
+                "knowledge_points": [
+                    {
+                        "name": "随机事件概率",
+                        "cognitive": "理解",
+                        "difficulty": 0.4,
+                        "combinations": [
+                            "集合的基本运算",
+                            "古典概型"
+                        ]
+                    },
+                    {
+                        "name": "古典概型",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "排列组合",
+                            "随机事件概率"
+                        ]
+                    },
+                    {
+                        "name": "几何概型",
+                        "cognitive": "应用",
+                        "difficulty": 0.55,
+                        "combinations": [
+                            "古典概型",
+                            "测度概念"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "统计基础",
+                "knowledge_points": [
+                    {
+                        "name": "抽样方法",
+                        "cognitive": "理解",
+                        "difficulty": 0.35,
+                        "combinations": [
+                            "随机数法",
+                            "系统抽样"
+                        ]
+                    },
+                    {
+                        "name": "用样本估计总体",
+                        "cognitive": "应用",
+                        "difficulty": 0.5,
+                        "combinations": [
+                            "频率分布直方图",
+                            "数字特征计算"
+                        ]
+                    }
+                ]
+            },
+            {
+                "topic": "概率分布",
+                "knowledge_points": [
+                    {
+                        "name": "二项分布",
+                        "cognitive": "应用",
+                        "difficulty": 0.6,
+                        "combinations": [
+                            "独立事件概率",
+                            "组合数计算"
+                        ]
+                    },
+                    {
+                        "name": "正态分布",
+                        "cognitive": "理解",
+                        "difficulty": 0.65,
+                        "combinations": [
+                            "连续型随机变量",
+                            "函数图像的对称性"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

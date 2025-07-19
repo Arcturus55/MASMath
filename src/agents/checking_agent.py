@@ -53,7 +53,7 @@ class CheckingAgent(BaseAgent):
         files = [os.path.join(data_file_path, file) for file in os.listdir(data_file_path)]
         datas = []
         for file in files:
-            with open(file, 'r') as f:
+            with open(file, 'r', encoding="utf-8") as f:
                 datas.extend(json.loads(f.read()))
 
         print("正在构建数据库...")
