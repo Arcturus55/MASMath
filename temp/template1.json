@@ -1,0 +1,112 @@
+[
+    {
+        "subject": "集合与简易逻辑",
+        "difficulty": 0.2,
+        "type": "选择"
+    },
+    {
+        "subject": "复数运算",
+        "difficulty": 0.25,
+        "type": "选择"
+    },
+    {
+        "subject": "平面向量",
+        "difficulty": 0.3,
+        "type": "选择"
+    },
+    {
+        "subject": "概率基础",
+        "difficulty": 0.35,
+        "type": "选择"
+    },
+    {
+        "subject": "三角函数图像",
+        "difficulty": 0.4,
+        "type": "选择"
+    },
+    {
+        "subject": "数列基础",
+        "difficulty": 0.45,
+        "type": "选择"
+    },
+    {
+        "subject": "立体几何三视图",
+        "difficulty": 0.5,
+        "type": "选择"
+    },
+    {
+        "subject": "函数性质",
+        "difficulty": 0.55,
+        "type": "选择"
+    },
+    {
+        "subject": "二项式定理",
+        "difficulty": 0.6,
+        "type": "选择"
+    },
+    {
+        "subject": "圆锥曲线性质",
+        "difficulty": 0.65,
+        "type": "选择"
+    },
+    {
+        "subject": "导数应用",
+        "difficulty": 0.7,
+        "type": "选择"
+    },
+    {
+        "subject": "抽象函数综合",
+        "difficulty": 0.75,
+        "type": "选择"
+    },
+    {
+        "subject": "线性规划",
+        "difficulty": 0.4,
+        "type": "填空"
+    },
+    {
+        "subject": "排列组合",
+        "difficulty": 0.45,
+        "type": "填空"
+    },
+    {
+        "subject": "解三角形",
+        "difficulty": 0.55,
+        "type": "填空"
+    },
+    {
+        "subject": "双曲线离心率",
+        "difficulty": 0.7,
+        "type": "填空"
+    },
+    {
+        "subject": "数列通项与求和",
+        "difficulty": 0.5,
+        "type": "解答"
+    },
+    {
+        "subject": "立体几何证明",
+        "difficulty": 0.55,
+        "type": "解答"
+    },
+    {
+        "subject": "概率分布与统计",
+        "difficulty": 0.6,
+        "type": "解答"
+    },
+    {
+        "subject": "椭圆综合问题",
+        "difficulty": 0.75,
+        "type": "解答"
+    },
+    {
+        "subject": "导数与函数综合",
+        "difficulty": 0.85,
+        "type": "解答"
+    },
+    {
+        "subject": "坐标系与参数方程",
+        "difficulty": 0.65,
+        "type": "解答"
+    }
+]

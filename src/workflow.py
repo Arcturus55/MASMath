@@ -21,7 +21,7 @@ class WorkFlow:
             embed_model_name=os.getenv("Embedding_Model_ID")
         )
         self.structure_agent = StructureAgent(model_name=os.getenv("Gemini-2.0"))
-        self.generation_agent = GenerationAgent(model_name=os.getenv("Gemini-2.0"))
+        self.generation_agent = GenerationAgent(model_name=os.getenv("GPT-4.1"))
         self.solver_agent = SolverAgent(model_name=os.getenv("GPT-4o"))
         self.judger_agent = JudgerAgent(model_name=os.getenv("Gemini-2.0"))
         self.checking_agent = CheckingAgent(
