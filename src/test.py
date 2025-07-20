@@ -12,6 +12,7 @@ from agents.type_agent import TypeAgent
 type_agent = TypeAgent(model_name=os.getenv("Deepseek-R1"))
 resp = type_agent.ask()
 data = type_agent.extract(resp)
+
 print(data)
 
 mas = WorkFlow(redund=False)
